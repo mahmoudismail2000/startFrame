@@ -1,0 +1,36 @@
+section{
+    color: #2C3E50;
+}
+.before{
+    background-color: #2C3E50;
+}
+.after{
+    background-color: #2C3E50;
+}
+
+input{
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin-top: 40px;
+    
+
+}
+input:focus{
+    outline: 0px;
+}
+.btn{
+    background-color: #1ABC9C;
+    margin-top: 40px;
+    color: white;
+}
+.labelInput{
+    transition: all .5s;
+}
+
+.labelClass{
+    top: 15px;
+    color: #1ABC9C;
+    
+}

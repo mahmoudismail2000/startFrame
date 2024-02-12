@@ -1,0 +1,31 @@
+<section class="secClass">
+    <div class="container d-flex flex-column justify-content-center align-items-center py-5">
+        <h1 class="startH1">PORTFOLIO COMPONENT</h1>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="before"></div>
+            <div class="mx-3">
+                <i class="fa-solid fa-star py-3 starIcon"></i>
+            </div>
+            <div class="after"></div>
+        </div>
+        <div class="row gy-4">
+            <div class="col-md-4" *ngFor="let item of imgLinks">
+                <div class="protContent">
+                    <img [src]="item" alt="" class="w-100 rounded-2">
+                    <div class="portLayer rounded-2 d-flex justify-content-center align-items-center" [id]="item" (click)="imgClick($event)">
+                        <i class="fa-solid fa-plus"></i>
+
+                    </div>
+                    
+
+
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="layerOfImage d-flex justify-content-center align-items-center" *ngIf="imgId.length>0" (click)="closeImg()">
+        <img [src]="imgId" alt="">
+    </div>
+</section>

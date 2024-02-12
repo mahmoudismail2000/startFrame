@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+.after{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+}
+.before{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+}
+.startH1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.routerActive{
+    background-color: #1ABC9C;
+    border-radius: 10px;
+}
+.secClass{
+    padding-top: 100px;
+}

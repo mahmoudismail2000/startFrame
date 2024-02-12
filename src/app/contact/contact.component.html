@@ -1,0 +1,47 @@
+<section class="secClass">
+    <div class="container d-flex flex-column justify-content-center align-items-center py-5">
+        <h1 class="startH1">CONATCT SECTION</h1>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="before"></div>
+            <div class="mx-3">
+                <i class="fa-solid fa-star py-3 starIcon"></i>
+            </div>
+            <div class="after"></div>
+        </div>
+        <div class="row w-100 d-flex justify-content-center">
+            <div class="col-md-7">
+                <div class="position-relative">
+                    <div class="position-absolute start-0 labelInput" [ngClass]="name.length>0?'labelClass':'top-50'">
+                        <span>User Name :</span>
+                    </div>
+                    <input type="text" class="w-100 position-relative" placeholder="User Name" [(ngModel)]="name">
+                </div>
+                <div class="position-relative">
+                    <div class="position-absolute start-0 labelInput" [ngClass]="age.length>0?'labelClass':'top-50'">
+                        <span>User Age :</span>
+                    </div>
+                    <input type="text" class="w-100 position-relative" placeholder="User Age" [(ngModel)]="age">
+                </div>
+                <div class="position-relative">
+                    <div class="position-absolute start-0 labelInput" [ngClass]="email.length>0?'labelClass':'top-50'">
+                        <span>User Email :</span>
+                    </div>
+                    <input type="email" class="w-100 position-relative" placeholder="User Email" [(ngModel)]="email">
+                </div>
+                <div class="position-relative">
+                    <div class="position-absolute start-0 labelInput" [ngClass]="password.length>0?'labelClass':'top-50'">
+                        <span>User Password :</span>
+                    </div>
+                    <input type="password" class="w-100 position-relative" placeholder="User Password" [(ngModel)]="password">
+                </div>
+                <div>
+                    <button class="btn">Send Message</button>
+                </div>
+                
+               
+            </div>
+            
+            
+        </div>
+    </div>
+</section>

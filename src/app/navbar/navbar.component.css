@@ -1,0 +1,20 @@
+.container-fluid{
+    background-color: #2C3E50;
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 90px;
+}
+.navbar{
+    background-color: #2C3E50;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+   
+}
+.navName{
+    font-size: 32px;
+}
+.navbar li a{
+    color: white;
+
+}
